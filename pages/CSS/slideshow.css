@@ -10,8 +10,8 @@
 }
 
 .thumbnails img {
-  width: 40px;
-  height: 40px;
+  width: 80px;
+  height: 80px;
   cursor: pointer;
 }
 
@@ -35,9 +35,9 @@
   display: grid;
   grid-auto-flow: row;
   gap: 1rem;
-  width: calc(540px + 1rem);
+  width: calc(1080px + 1rem);
   padding: 0 0.25rem;
-  height: 720px;
+  height: 1440px;
   overflow-y: auto;
   overscroll-behavior-y: contain;
   scroll-snap-type: y mandatory;
