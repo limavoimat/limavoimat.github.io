@@ -29,9 +29,9 @@
   display: grid;
   grid-auto-flow: column;
   gap: 1rem;
-  width: 540px;
+  width: 720px;
   padding: 0 0.25rem;
-  height: 720px;
+  height: 540px;
   overflow-y: auto;
   overscroll-behavior-x: contain;
   scroll-snap-type: x mandatory;
@@ -43,7 +43,7 @@
 }
 
 .slides img {
-  width: 540px;
+  width: 720px;
   object-fit: contain;
 }
 
